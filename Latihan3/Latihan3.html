@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 3 Bikin Form</title>
+</head>
+<body>
+    <form>
+        <table border="0" align="left" cellpadding="15" width="20%">
+            <thead>
+                <tr bgcolor="beige">
+                    <th colspan="4">Form Register Produk</th>
+                </tr>
+            </thead>
+            <tfoot>
+                        <tr bgcolor="beige">
+                            <th colspan="4">
+                                <input type="submit" value="kirim">&nbsp;&nbsp;
+                                <input type="submit" value="batal"> 
+                            </th>
+                        </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td><label>Nama Produk</label></td>
+                    <td>
+                        <input type="text" name="nama" value="" size="45" width="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Jenis Produk</label></td>
+                    <td>
+                        <select name="jenis produk">
+                            <option value="">-- Kategori Produk --</option>
+                            <option value="Beras Momifood">Beras Momifood</option>
+                            <option value="Minyak Goreng Momifood">Minyak Goreng Momifood</option>
+                            <option value="Kecap Manis Momifood">Kecap Manis Momifood</option>
+                            <option value="Gula Kristal Momifood">Gula Kristal</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Harga Produk</label></td>
+                    <td>
+                        <input type="text" name="nama" value="" size="45" width="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Stok</label></td>
+                    <td>
+                        <input type="text" name="nama" value="" size="45" width="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Photo</label></td>
+                    <td>
+                        <input type="text" name="nama" value="" size="45" width="100">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <form>
+        <table border="0" align="right" cellpadding="15" width="20%">
+            <thead>
+                <tr bgcolor="blue ocean">
+                    <th colspan="4">Form Register Member</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr bgcolor="blue ocean">
+                    <th colspan="4">
+                        <input type="submit" value="masuk">&nbsp;&nbsp;
+                        <input type="submit" value="batal"> 
+                    </th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td><label>Username</label></td>
+                    <td>
+                        <input type="text" name="nama" value="" 
+                        placeholder="fawwaz" size="25" width="100">
+                    </td>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td>
+                            <input type="password" name="pass" size="10" value="123456"/>
+                            <input type="hidden" value="member"/>
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
